@@ -1,5 +1,3 @@
-#include <iostream>
-
 #include "DoublyLinkedList.h"
 
 LinkedList<int> createList() {
@@ -20,6 +18,12 @@ LinkedList<int> createList() {
 
     // Check Tail
     std::cout << "Tail: " << list.peakBack() << std::endl;
+
+    list.printListForward();
+    list.printListBackward();
+
+    std::cout << "Exists: " << list.exists(5) << std::endl;
+    std::cout << "Exists: " << list.exists(6) << std::endl;
 
     return list;
 }
