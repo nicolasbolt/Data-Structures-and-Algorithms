@@ -8,7 +8,6 @@
 
 ## DS to add 1st iteration
 
-- Tree
 - BST
 - Min Heap
 - Max Heap
@@ -21,3 +20,19 @@
 ## DS to add 3rd iteration
 
 - Unordered DS (TBD)
+
+# Testing
+
+### Pytest
+
+To run tests
+
+```
+    coverage run -m pytest
+```
+
+To run test coverage report
+
+```
+    coverage report
+```
