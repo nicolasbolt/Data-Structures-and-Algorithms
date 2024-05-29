@@ -36,5 +36,11 @@ class BST:
     def remove(self, data):
         pass
 
-    def inorder_traversal(self):
-        pass
+    def inorder_traversal(self, node):
+        if not node:
+            return
+        
+        self.inorder_traversal(node.left)
+        print(node.data)
+        self.inorder_traversal(node.right)
+        

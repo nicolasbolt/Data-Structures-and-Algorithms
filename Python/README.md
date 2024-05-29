@@ -19,7 +19,7 @@
 
 ## DS to add 3rd iteration
 
-- Unordered DS (TBD)
+- Disjoint Sets/UpTrees
 
 # Testing
 
@@ -28,11 +28,6 @@
 To run tests
 
 ```
-    coverage run -m pytest
-```
-
-To run test coverage report
-
-```
-    coverage report
+    cd DataStructuresAlgorithms
+    python3 -m unittest
 ```
